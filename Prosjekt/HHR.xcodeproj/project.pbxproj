@@ -12,6 +12,7 @@
 		108BBEDD202DAF6A00E5CBCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108BBEDB202DAF6A00E5CBCA /* Main.storyboard */; };
 		108BBEDF202DAF6A00E5CBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108BBEDE202DAF6A00E5CBCA /* Assets.xcassets */; };
 		108BBEE2202DAF6A00E5CBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108BBEE0202DAF6A00E5CBCA /* LaunchScreen.storyboard */; };
+		1097F3DE2032E7C1006FB04A /* storyboardSvein.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1097F3DD2032E7C1006FB04A /* storyboardSvein.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		108BBEDE202DAF6A00E5CBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		108BBEE1202DAF6A00E5CBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		108BBEE3202DAF6A00E5CBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1097F3DD2032E7C1006FB04A /* storyboardSvein.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = storyboardSvein.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				108BBED7202DAF6A00E5CBCA /* AppDelegate.swift */,
 				108BBED9202DAF6A00E5CBCA /* ViewController.swift */,
+				1097F3DD2032E7C1006FB04A /* storyboardSvein.storyboard */,
 				108BBEDB202DAF6A00E5CBCA /* Main.storyboard */,
 				108BBEDE202DAF6A00E5CBCA /* Assets.xcassets */,
 				108BBEE0202DAF6A00E5CBCA /* LaunchScreen.storyboard */,
@@ -125,6 +128,7 @@
 			files = (
 				108BBEE2202DAF6A00E5CBCA /* LaunchScreen.storyboard in Resources */,
 				108BBEDF202DAF6A00E5CBCA /* Assets.xcassets in Resources */,
+				1097F3DE2032E7C1006FB04A /* storyboardSvein.storyboard in Resources */,
 				108BBEDD202DAF6A00E5CBCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
