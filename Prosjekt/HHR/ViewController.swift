@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-//Test3. gitkraken version
+//Test4. xcode Svein 2
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
