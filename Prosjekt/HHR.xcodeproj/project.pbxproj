@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		108BBED8202DAF6A00E5CBCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108BBED7202DAF6A00E5CBCA /* AppDelegate.swift */; };
 		108BBEDA202DAF6A00E5CBCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108BBED9202DAF6A00E5CBCA /* ViewController.swift */; };
-		108BBEDD202DAF6A00E5CBCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108BBEDB202DAF6A00E5CBCA /* Main.storyboard */; };
 		108BBEDF202DAF6A00E5CBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108BBEDE202DAF6A00E5CBCA /* Assets.xcassets */; };
 		108BBEE2202DAF6A00E5CBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108BBEE0202DAF6A00E5CBCA /* LaunchScreen.storyboard */; };
+		10C09FA32035974300D3C708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C09FA22035974300D3C708 /* Main.storyboard */; };
+		10C09FA52035974A00D3C708 /* CalendarViewControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C09FA42035974A00D3C708 /* CalendarViewControll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		108BBED4202DAF6A00E5CBCA /* HHR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		108BBED7202DAF6A00E5CBCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		108BBED9202DAF6A00E5CBCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		108BBEDC202DAF6A00E5CBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		108BBEDE202DAF6A00E5CBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		108BBEE1202DAF6A00E5CBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		108BBEE3202DAF6A00E5CBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C09FA22035974300D3C708 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../Helping-Hand-xcode1/Prosjekt/HHR/Main.storyboard"; sourceTree = "<group>"; };
+		10C09FA42035974A00D3C708 /* CalendarViewControll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarViewControll.swift; path = "../../../../Downloads/Skillseed-Anders/Prosjekt/HHR/CalendarViewControll.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,8 @@
 			children = (
 				108BBED7202DAF6A00E5CBCA /* AppDelegate.swift */,
 				108BBED9202DAF6A00E5CBCA /* ViewController.swift */,
-				108BBEDB202DAF6A00E5CBCA /* Main.storyboard */,
+				10C09FA22035974300D3C708 /* Main.storyboard */,
+				10C09FA42035974A00D3C708 /* CalendarViewControll.swift */,
 				108BBEDE202DAF6A00E5CBCA /* Assets.xcassets */,
 				108BBEE0202DAF6A00E5CBCA /* LaunchScreen.storyboard */,
 				108BBEE3202DAF6A00E5CBCA /* Info.plist */,
@@ -123,9 +126,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C09FA32035974300D3C708 /* Main.storyboard in Resources */,
 				108BBEE2202DAF6A00E5CBCA /* LaunchScreen.storyboard in Resources */,
 				108BBEDF202DAF6A00E5CBCA /* Assets.xcassets in Resources */,
-				108BBEDD202DAF6A00E5CBCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C09FA52035974A00D3C708 /* CalendarViewControll.swift in Sources */,
 				108BBEDA202DAF6A00E5CBCA /* ViewController.swift in Sources */,
 				108BBED8202DAF6A00E5CBCA /* AppDelegate.swift in Sources */,
 			);
@@ -144,14 +148,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		108BBEDB202DAF6A00E5CBCA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				108BBEDC202DAF6A00E5CBCA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		108BBEE0202DAF6A00E5CBCA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
