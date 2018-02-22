@@ -350,7 +350,6 @@
         <!--Tom Watson-->
         <scene sceneID="GcG-8I-QAd">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0PC-pS-nbb" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController modalTransitionStyle="flipHorizontal" id="EM0-wh-5Gt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MwB-Bx-Xay">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -395,8 +394,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Tom Watson" id="SZp-4V-YQj"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0PC-pS-nbb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5058.3999999999996" y="901.79910044977521"/>
+            <point key="canvasLocation" x="-4921" y="1796"/>
         </scene>
         <!--Profile-->
         <scene sceneID="T0x-rO-M4r">
@@ -476,6 +476,9 @@
                                                 <rect key="frame" x="246" y="-3" width="107" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Give Review +"/>
+                                                <connections>
+                                                    <segue destination="oLW-0a-bXC" kind="show" id="ZLR-az-jKh"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -721,7 +724,42 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jlJ-UN-k6f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3396" y="902"/>
+            <point key="canvasLocation" x="-3014" y="902"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="L6l-Cg-55C">
+            <objects>
+                <viewController id="oLW-0a-bXC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R78-ia-iLp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jre-Fb-fiG">
+                                <rect key="frame" x="0.0" y="64" width="375" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Reviews" translatesAutoresizingMaskIntoConstraints="NO" id="gIh-il-hTw">
+                                <rect key="frame" x="0.0" y="406" width="179" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sdw-Wk-dGX">
+                                <rect key="frame" x="187" y="400" width="188" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Save"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="XBJ-PU-plw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p71-r5-9B5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3396" y="1796"/>
         </scene>
         <!--Search-->
         <scene sceneID="CVq-L9-nh0">
